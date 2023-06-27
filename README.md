@@ -1,22 +1,12 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # bundesbank
 
 <!-- badges: start -->
-[![Codecov test coverage](https://codecov.io/gh/2DegreesInvesting/bundesbank/branch/main/graph/badge.svg)](https://app.codecov.io/gh/2DegreesInvesting/bundesbank?branch=main)
+
+[![Codecov test
+coverage](https://codecov.io/gh/2DegreesInvesting/bundesbank/branch/main/graph/badge.svg)](https://app.codecov.io/gh/2DegreesInvesting/bundesbank?branch=main)
 [![R-CMD-check](https://github.com/2DegreesInvesting/bundesbank/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/2DegreesInvesting/bundesbank/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
@@ -33,8 +23,6 @@ pak::pak("2degreesinvesting/bundesbank")
 
 ## Example
 
-```{r example}
+``` r
 library(bundesbank)
-
-
 ```

@@ -2,3 +2,5 @@
 ^README\.Rmd$
 ^bundesbank\.Rproj$
 ^\.Rproj\.user$
+^codecov\.yml$
+^\.github$

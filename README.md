@@ -28,8 +28,8 @@ library(bundesbank)
 library(tibble)
 
 data <- tibble(company_name = "Peter GmbH & Co. KG, Berlin")
-data |>
-  add_name_from("company_name") |>
+data %>%
+  add_name_from("company_name") %>%
   add_city_from("company_name")
 #> # A tibble: 1 × 3
 #>   company_name                name                city  
@@ -38,7 +38,7 @@ data |>
 
 # Assumes that 'name' is after the last comma. If not the output is wrong.
 data <- tibble(company_name = "bad, name")
-data |>
+data %>%
   add_name_from("company_name")
 #> # A tibble: 1 × 2
 #>   company_name name 
@@ -47,7 +47,7 @@ data |>
 
 # Assumes that 'city' is after the last comma. If not the output is wrong.
 data <- tibble(company_name = "city, bad")
-data |>
+data %>%
   add_city_from("company_name")
 #> # A tibble: 1 × 2
 #>   company_name city 

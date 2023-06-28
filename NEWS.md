@@ -2,6 +2,4 @@
 
 # bundesbank 0.0.0.9001 (2023-06-28)
 
-* New `add_name_from()` and `add_city_from()` (#1)
-
-
+* New `add_name_from()` and `add_city_from()` (#1).
